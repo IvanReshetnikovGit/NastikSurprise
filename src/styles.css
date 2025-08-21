@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+:root {
+  --sidebar-bg: #F2E0D0;       /* фон сайдбара */
+  --hover-bg: #F2B28D;          /* hover на ссылках */
+  --text-main: #592A0E;         /* основной текст */
+  --active-accent: #A6411C;     /* активная ссылка / акцент */
+  --secondary-accent: #D97D5B;  /* второстепенные элементы */
+}

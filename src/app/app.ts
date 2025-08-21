@@ -9,4 +9,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'NastikSurprise';
+  sidebarOpen = false;
+  darkMode = false;
+  hover = false;
+  hover2 = false;
 }
