@@ -77,8 +77,11 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
-                "glob": "**/*",
-                "input": "public"
+                "glob": "index.html",
+                "input": "dist/NastikSurprise",
+                "output": "/",
+                "ignore": [] ,
+                "rename": "404.html"
               }
             ],
             "styles": [
