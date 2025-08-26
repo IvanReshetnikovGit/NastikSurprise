@@ -77,11 +77,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
-                "glob": "app.html",
-                "input": "dist/NastikSurprise",
-                "output": "/",
-                "ignore": [] ,
-                "rename": "404.html"
+                "glob": "**/*",
+                "input": "public"
               }
             ],
             "styles": [
